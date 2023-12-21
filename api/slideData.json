@@ -1,0 +1,36 @@
+{
+  "slides": [
+    {
+      "_id": 1,
+      "bgImg": "../assets/slides/xmas-1.jpg",
+      "title": "Merry Christmas My Friends",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolore",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+      "active": true
+    },
+    {
+      "_id": 2,
+      "bgImg": "../assets/slides/xmas-2.jpg",
+      "title": "It's Christmas Time Now",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolore",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+      "active": false
+    },
+    {
+      "_id": 3,
+      "bgImg": "../assets/slides/xmas-3.jpg",
+      "title": "Meet Your Family at Christmas",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolore",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+      "active": false
+    },
+    {
+      "_id": 4,
+      "bgImg": "../assets/slides/xmas-4.jpg",
+      "title": "Exciting Moment of a Year",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolore",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+      "active": false
+    }
+  ]
+}
