@@ -1,0 +1,58 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 1000 !important;
+    background: rgba(0, 0, 0, .5);
+}
+
+.logo {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: "Bauhaus 93 W00 Regular";
+}
+
+.menu {
+    color: #fff;
+    font-size: 2em;
+    transition: .5s;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px;
+}
+
+.nav li:hover a {
+    color: var(--primary);
+}
+
+
+
+
+
+
+
