@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSlide.css';
+import Card from './Card';
 
 const HeroSlide = ({ slide }) => {
     return (
@@ -18,8 +19,8 @@ const HeroSlide = ({ slide }) => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-5">
-
+                        <div className="col-lg-5 d-flex justify-content-center">
+                            <Card slide={slide} />
                         </div>
                     </div>
                 </div>

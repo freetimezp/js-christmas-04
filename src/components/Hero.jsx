@@ -32,7 +32,6 @@ function Hero() {
                         </SwiperSlide>
                     );
                 })}
-
             </Swiper>
         </>
     );

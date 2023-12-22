@@ -1,0 +1,106 @@
+.card {
+    position: relative;
+    margin: 20px 0;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5);
+    border-radius: 0 20px 20px 0;
+}
+
+.card:hover {
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5);
+    z-index: 100;
+}
+
+.card .imgBox {
+    position: relative;
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .imgBox {
+    transform: rotateY(-130deg);
+}
+
+.card .imgBox img {
+    position: absolute;
+    border-radius: 0 20px 20px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .imgBox h1 {
+    position: relative;
+    color: #fff;
+    font-size: 9rem;
+    font-family: "Bauhaus 93 W00 Regular";
+    transition: 1s;
+}
+
+.card:hover .imgBox h1 {
+    transform: rotateY(180deg);
+}
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.card .details::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+    background: url(../images/xmas-card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card .details h2,
+p {
+    position: relative;
+    color: #fff;
+}
+
+.card .details h2 {
+    font-family: "Bauhaus 93 W00 Regular";
+    margin: 15px;
+}
+
+.card .details p {
+    font-weight: 300;
+}
+
+
+
+
+
+
+
