@@ -6,9 +6,10 @@ import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
 
 import { AppContext } from '../App';
+import HeroSlide from './HeroSlide';
 
 function Hero() {
-    const { data } = useContext(AppContext);
+    const { data: slides } = useContext(AppContext);
     //console.log(data);
 
     return (
@@ -24,9 +25,14 @@ function Hero() {
                 loop={true}
                 className='mySwiper'
             >
-                <SwiperSlide>
+                {slides && slides.length > 0 && slides.map((slide) => {
+                    return (
+                        <SwiperSlide key={slide._id}>
+                            <HeroSlide slide={slide} />
+                        </SwiperSlide>
+                    );
+                })}
 
-                </SwiperSlide>
             </Swiper>
         </>
     );
