@@ -7,6 +7,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 
 import { AppContext } from '../App';
 import HeroSlide from './HeroSlide';
+import Sci from './Sci';
 
 function Hero() {
     const { data: slides } = useContext(AppContext);
@@ -33,6 +34,8 @@ function Hero() {
                     );
                 })}
             </Swiper>
+
+            <Sci />
         </>
     );
 };
