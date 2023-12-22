@@ -34,7 +34,11 @@
     color: var(--primary);
 }
 
-
+@media (max-width: 768px) {
+    .sci {
+        display: none;
+    }
+}
 
 
 

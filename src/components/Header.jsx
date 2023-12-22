@@ -36,6 +36,23 @@ const Header = () => {
                     <i className="bi bi-list"></i>
                 </a>
             )}
+
+            <ul className={`nav-mobile ${open ? 'active' : undefined}`}>
+                <li>
+                    <a href="#">
+                        <i className="bi bi-house"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Gifts</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
         </header>
     );
 };

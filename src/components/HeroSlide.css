@@ -49,3 +49,28 @@
     object-fit: cover !important;
     object-position: center !important;
 }
+
+@media (max-width: 1440px) {
+    .banner .content h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 20px 20px 0;
+    }
+    .banner .content h1 {
+        font-size: 3rem;
+    }
+    .banner .content p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+}
+
+
+
+
+
