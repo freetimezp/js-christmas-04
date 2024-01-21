@@ -12,7 +12,7 @@ function App() {
   const [data, setData] = useState([]);
 
   const fetchData = () => {
-    fetch('http://localhost:4000/slides')
+    fetch('https://js-christmas-04.vercel.app/slides')
       .then(res => res.json())
       .then(data => setData(data))
       .catch(err => console.log(err.message));
