@@ -17,10 +17,6 @@ function Hero() {
         <>
             <Swiper
                 spaceBetween={10}
-                autoplay={{
-                    delay: 6000,
-                    disableOnInteraction: false,
-                }}
                 navigation={true}
                 modules={[Autoplay, Navigation]}
                 loop={true}
